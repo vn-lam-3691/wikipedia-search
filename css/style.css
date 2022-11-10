@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #00369a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: #fff;
+    margin: 24px 20px 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+h1 {
+    padding: 5px 0;
+    font-size: 1.7rem;
+    color: #111;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #f0f0f0;
+    border-radius: 50px;
+    outline: none;
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#searchResult {
+    margin-top: 1rem;
+}
+
+#sreachResult article {
+    padding: 0;
+    margin: 20px 0;
+}
+
+#searchResult article h2 {
+    font-size: 1.1rem;
+}
+
+.highlight {
+    background-color: #fff6ea;
+    font-weight: bold;
+    padding: 5px;
+}
